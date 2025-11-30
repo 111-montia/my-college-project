@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Manager - Projects</title>
+</head>
+<body>
+    <div id="main-container">
+        <h1>My Projects</h1>
+        
+        <div>
+            <button id="logout-btn">Logout</button>
+            <a href="pet-dashboard.html">View My Pet</a>
+        </div>
+
+        <div id="user-info">
+            <p>Role: <span id="user-role"></span></p>
+        </div>
+
+        <div id="leader-section" style="display: none;">
+            <h2>Create New Project</h2>
+            <form id="project-form">
+                <div>
+                    <label for="project-name">Project Name:</label>
+                    <input type="text" id="project-name" required>
+                </div>
+                <div>
+                    <label for="project-desc">Description:</label>
+                    <textarea id="project-desc"></textarea>
+                </div>
+                <button type="submit">Create Project</button>
+                <div id="form-error" style="color: red;"></div>
+            </form>
+        </div>
+
+        <h2>Your Projects</h2>
+        <div id="projects-list">
+            <p>Loading projects...</p>
+        </div>
+    </div>
+
+    <script src="js/project-dashboard.js"></script>
+</body>
+</html>

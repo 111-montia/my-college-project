@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Manager - Login</title>
+</head>
+<body>
+    <div id="login-container">
+        <h1>Quest Manager</h1>
+        <form id="login-form">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <div id="error-message" style="color: red;"></div>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

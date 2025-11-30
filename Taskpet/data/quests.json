@@ -1,0 +1,74 @@
+{
+  "quests": [
+    {
+      "id": "quest-001",
+      "project_id": "proj-001",
+      "title": "Design Homepage Layout",
+      "description": "Create a modern homepage design with responsive layout",
+      "xp_reward": 50,
+      "status": "open",
+      "created_by": "user-1",
+      "created_at": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": "quest-002",
+      "project_id": "proj-001",
+      "title": "Implement User Authentication",
+      "description": "Set up login and registration system with JWT tokens",
+      "xp_reward": 100,
+      "status": "open",
+      "created_by": "user-1",
+      "created_at": "2025-01-15T11:00:00Z"
+    },
+    {
+      "id": "quest-003",
+      "project_id": "proj-001",
+      "title": "Setup Database Schema",
+      "description": "Design and implement PostgreSQL database structure",
+      "xp_reward": 75,
+      "status": "open",
+      "created_by": "user-1",
+      "created_at": "2025-01-15T11:15:00Z"
+    },
+    {
+      "id": "quest-004",
+      "project_id": "proj-002",
+      "title": "Create Mobile UI Components",
+      "description": "Build reusable components for both iOS and Android",
+      "xp_reward": 80,
+      "status": "open",
+      "created_by": "user-4",
+      "created_at": "2025-01-10T09:00:00Z"
+    },
+    {
+      "id": "quest-005",
+      "project_id": "proj-002",
+      "title": "Integrate Push Notifications",
+      "description": "Implement push notification system across platforms",
+      "xp_reward": 90,
+      "status": "closed",
+      "created_by": "user-4",
+      "created_at": "2025-01-11T10:00:00Z"
+    },
+    {
+      "id": "quest-006",
+      "project_id": "proj-003",
+      "title": "Write 5 Blog Posts",
+      "description": "Create engaging blog posts about industry trends",
+      "xp_reward": 60,
+      "status": "open",
+      "created_by": "user-1",
+      "created_at": "2025-01-12T15:00:00Z"
+    },
+    {
+      "id": "quest-007",
+      "project_id": "proj-003",
+      "title": "Plan Social Media Calendar",
+      "description": "Create a 30-day social media content calendar",
+      "xp_reward": 40,
+      "status": "open",
+      "created_by": "user-1",
+      "created_at": "2025-01-12T15:30:00Z"
+    }
+  ]
+}
